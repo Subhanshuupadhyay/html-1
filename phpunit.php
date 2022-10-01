@@ -3,7 +3,26 @@
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Events\Dispatcher;
-
+using System;
+using System.Windows.Forms;
+using System.Drawing;
+ 
+namespace WindowsFormsApplication1
+{
+    ///<summary>
+    /// Class summary.
+    ///</summary>
+    publicpartial classForm1 : Form
+    {
+        ///<summary>
+        /// Constructor summary.
+        ///</summary>
+        public Form1()
+        {
+            InitializeComponent();
+        }
+    }
+}
 /*
 |--------------------------------------------------------------------------
 | Register The Composer Auto Loader
